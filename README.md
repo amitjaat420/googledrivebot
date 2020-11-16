@@ -1,5 +1,5 @@
 # googledrivebot
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template= https://github.com/amitjaat420/googledrivebot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template= https://github.com/amitjaat420/googledrivebot/main)
 
 ### Installation
 - Install required modules.
