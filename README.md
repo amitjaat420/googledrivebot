@@ -1,6 +1,5 @@
 # googledrivebot
 
-[In reply to Infinite // No PMs]
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/amitjaat420/googledrivebot/tree/master)
 
 ### Installation
