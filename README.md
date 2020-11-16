@@ -1,4 +1,4 @@
-@@ -24,6 +24,10 @@
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template= https://github.com/amitjaat420/googledrivebot/tree/master)
 
 ### Installation
@@ -8,7 +8,6 @@ apt install -y git python3 ffmpeg
 - Clone this git repository.
 ```sh 
 git clone https://github.com/amitjaat420/googledrivebot
-@@ -4,8 +4,11 @@
 from time import sleep
 from sys import executable
 from pyrogram import Client, filters
@@ -19,10 +18,8 @@ from bot import SUDO_USERS, DOWNLOAD_DIRECTORY, LOGGER, SUPPORT_CHAT_LINK
 from bot.config import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
-
 @Client.on_message(filters.private & filters.incoming & filters.command(['log']) & filters.user(SUDO_USERS))
-@@ -21,11 +24,67 @@ def _send_log(client, message):
+def _send_log(client, message):
       LOGGER.info(f'Log file sent to {message.from_user.id}')
     except FloodWait as e:
       sleep(e.x)
